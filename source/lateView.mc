@@ -42,34 +42,19 @@ class lateView extends Ui.WatchFace {
 
 	function setLayoutVars(){
 		//Sys.println("Layout free memory: "+Sys.getSystemStats().freeMemory);
-		if(dialSize>0){ // strong design
-			fontHours = Ui.loadResource(Rez.Fonts.HoursStrong);
-			fontMinutes = Ui.loadResource(Rez.Fonts.MinuteStrong);
-			fontSmall = Ui.loadResource(Rez.Fonts.SmallStrong);
-			if(height>218){
-				dateY = centerY-Gfx.getFontHeight(fontHours)>>1-Gfx.getFontHeight(fontMinutes)-7;
-				radius = 89;
-				circleWidth=circleWidth*3+1;
-				batteryY=height-15 ;
-			} else {
-				dateY = centerY-Gfx.getFontHeight(fontHours)>>1-Gfx.getFontHeight(fontMinutes)-6;
-				radius = 81;
-				batteryY=height-15;
-				circleWidth=circleWidth*3;
-			}		
-		} else { // elegant design
-			fontHours = Ui.loadResource(Rez.Fonts.Hours);
-			fontMinutes = Ui.loadResource(Rez.Fonts.Minute);
-			fontSmall = Ui.loadResource(Rez.Fonts.Small);
-			if(height>218){
-				dateY = centerY-90-(Gfx.getFontHeight(fontSmall)>>1);
-				radius = 63;	
-				batteryY = centerY+38;	
-			} else {
-				dateY = centerY-80-(Gfx.getFontHeight(fontSmall)>>1);
-				radius = 55;
-				batteryY = centerY+33;
-			}
+
+		fontHours = Ui.loadResource(Rez.Fonts.Hours);
+		fontMinutes = Ui.loadResource(Rez.Fonts.Minute);
+		fontSmall = Ui.loadResource(Rez.Fonts.Small);
+		if(height>218){
+			dateY = centerY-90-(Gfx.getFontHeight(fontSmall)>>1);
+			radius = 63;	
+			batteryY = centerY+38;	
+		} else {
+			dateY = centerY-80-(Gfx.getFontHeight(fontSmall)>>1);
+			radius = 50;
+			batteryY = centerY+33;
+
 		}
 
 		if(activity>0){
@@ -103,14 +88,10 @@ class lateView extends Ui.WatchFace {
 		circleWidth = 3;
 		dialSize = 0;
 
-		var palette = [
-			[0xFF0000, 0xFFAA00, 0x00FF00, 0x00AAFF, 0xFF00FF, 0xAAAAAA],
-			[0xAA0000, 0xFF5500, 0x00AA00, 0x0000FF, 0xAA00FF, 0x555555], 
-			[0xAA0055, 0xFFFF00, 0x55FFAA, 0x00AAAA, 0x5500FF, 0xAAFFFF]
-		];
+
 		var tone = 0;
 		var mainColor = 4;
-		color = palette[tone][mainColor];
+		color = darkFGColor;
 
 
 
@@ -151,61 +132,76 @@ class lateView extends Ui.WatchFace {
 
 	//! Update the view
 	function onUpdate (dc) {
+		var offset = 7;
 		darkFGColor = Gfx.COLOR_PINK;
 		lightFGColor = 0xFFAAFF;
 		///Sys.println("onUpdate "+redrawAll);
 		clockTime = Sys.getClockTime();
 		if (lastRedrawMin != clockTime.min && redrawAll==0) { redrawAll = 1; }
-		//var ms = [Sys.getTimer()];
-		//if (redrawAll>0){
-			dc.setColor(backgroundColor, backgroundColor);
-			dc.clear();
-			lastRedrawMin=clockTime.min;
-			var info = Calendar.info(Time.now(), Time.FORMAT_MEDIUM);
-			var h=clockTime.hour;
 
-			// draw hour
-			var set = Sys.getDeviceSettings();
-			if(set.is24Hour == false){
-				if(h>11){ h-=12;}
-				if(0==h){ h=12;}
-			}
-			dc.setColor(darkFGColor, Gfx.COLOR_TRANSPARENT);
-			dc.drawText(centerX, centerY-(dc.getFontHeight(fontHours)>>1), fontHours, h.format("%0.1d"), Gfx.TEXT_JUSTIFY_CENTER);	
-			drawBatteryLevel(dc);
-			drawMinuteArc(dc);
-			if(centerY>89){
-				dc.setColor(lightFGColor, Gfx.COLOR_TRANSPARENT);
-				var text = "";
-	
-				
-				if(dateForm != null){
-					// text = Lang.format("$1$ ", ((dateForm == 0) ? [info.month] : [info.day_of_week]) );
-					text = Lang.format("$1$ ", ((dateForm == 0) ? [info.month] : [weekday_abbr_cache[info.day]]) );
-				}
-				text += info.day.format("%0.1d");
-				// dc.drawText(centerX, dateY, fontSmall, text, Gfx.TEXT_JUSTIFY_CENTER);
-				dc.drawText(0, (height/2)-10, fontSmall, text, Gfx.TEXT_JUSTIFY_LEFT);
-				if(activity > 0){
-					text = ActivityMonitor.getInfo();
-					if(activity == 1){ text = text.steps.toString(); }
-					else if(activity == 2){ text = humanizeNumber(text.calories); }
-					else if(activity == 3){ text = (text.activeMinutesDay.total.toString());} // moderate + vigorous
-					else if(activity == 4){ text = humanizeNumber(text.activeMinutesWeek.total); }
-					else if(activity == 5){ text = (text.floorsClimbed.toString()); }
-					else {text = "";}
+		dc.setColor(backgroundColor, backgroundColor);
+		dc.clear();
+		lastRedrawMin=clockTime.min;
+		var info = Calendar.info(Time.now(), Time.FORMAT_SHORT);
+		var h=clockTime.hour;
 
-					dc.setColor(lightFGColor, Gfx.COLOR_TRANSPARENT);
-					activityY = 20;
-					if(activity < 6){
-						dc.drawText(centerX + icon.getWidth()>>1, activityY, fontCondensed, text, Gfx.TEXT_JUSTIFY_CENTER); 
-						dc.drawBitmap(centerX - dc.getTextWidthInPixels(text, fontCondensed)>>1 - icon.getWidth()>>1-4, activityY+5, icon);
-					} 
-				}
-			}
+		// **** draw hour *****
+		var set = Sys.getDeviceSettings();
+		if(set.is24Hour == false){
+			if(h>11){ h-=12;}
+			if(0==h){ h=12;}
+		}
+		dc.setColor(darkFGColor, Gfx.COLOR_TRANSPARENT);
+		dc.drawText(centerX, centerY-(dc.getFontHeight(fontHours)>>1), fontHours, h.format("%0.1d"), Gfx.TEXT_JUSTIFY_CENTER);	
+		drawBatteryLevel(dc);
+		drawMinuteArc(dc);
+
+		// **** draw day *****
 		dc.setColor(lightFGColor, Gfx.COLOR_TRANSPARENT);
-		dc.drawText(centerX, 170, fontSmall, "STAY,", Gfx.TEXT_JUSTIFY_CENTER);
-		dc.drawText(centerX, 190, fontSmall, "liebste Nici", Gfx.TEXT_JUSTIFY_CENTER);
+		var text = "";
+
+		
+		// text = Lang.format("$1$ ", ((dateForm == 0) ? [info.month] : [info.day_of_week]) );
+		text = Lang.format("$1$ ", ((dateForm == 0) ? [info.month] : [weekday_abbr_cache[info.day_of_week]]) );
+		text += info.day.format("%0.1d");
+		// dc.drawText(centerX, dateY, fontSmall, text, Gfx.TEXT_JUSTIFY_CENTER);
+		dc.drawText(0+offset, (height/2)-10, fontSmall, text, Gfx.TEXT_JUSTIFY_LEFT);
+		
+		
+		// **** draw steps / activity *****			
+		if(activity > 0){
+			text = ActivityMonitor.getInfo();
+			var activityinfo = ActivityMonitor.getInfo();
+			
+			if(activity == 1){ text = text.steps.toString(); }
+			else if(activity == 2){ text = humanizeNumber(text.calories); }
+			else if(activity == 3){ text = (text.activeMinutesDay.total.toString());} // moderate + vigorous
+			else if(activity == 4){ text = humanizeNumber(text.activeMinutesWeek.total); }
+			else if(activity == 5){ text = (text.floorsClimbed.toString()); }
+			else {text = "";}
+
+			dc.setColor(lightFGColor, Gfx.COLOR_TRANSPARENT);
+			activityY = 20;
+			if(activity < 6){
+				dc.drawText(centerX + icon.getWidth()>>1, activityY, fontCondensed, text, Gfx.TEXT_JUSTIFY_CENTER); 
+				dc.drawBitmap(centerX - dc.getTextWidthInPixels(text, fontCondensed)>>1 - icon.getWidth()>>1-4, activityY+5, icon);
+			}
+			if (activity == 1)
+			{
+				drawStepsArc(dc,activityinfo.steps,activityinfo.stepGoal);
+			} 
+		}
+		
+		var radiussteps = 108;
+		
+		
+		// **** calendar week *****
+		dc.setColor(lightFGColor, Gfx.COLOR_TRANSPARENT);
+		dc.drawText(width-offset, (height/2)-10, fontCondensed, "KW "  + iso_week_number(info.year,info.month,info.day), Gfx.TEXT_JUSTIFY_RIGHT);
+		
+		// **** text *****	
+		dc.setColor(lightFGColor, Gfx.COLOR_TRANSPARENT);
+		dc.drawText(centerX, 180-offset, fontSmall, "Keep going", Gfx.TEXT_JUSTIFY_CENTER);
 	}
 
 
@@ -226,6 +222,29 @@ class lateView extends Ui.WatchFace {
 		var a = (secondsFromLastHour).toFloat()/Calendar.SECONDS_PER_HOUR * 2*Math.PI;
 		var r = tillStart>=120 || clockTime.min<10 ? radius : radius-Gfx.getFontHeight(fontMinutes)>>1-1;
 		return [centerX+(r*Math.sin(a)), centerY-(r*Math.cos(a))];
+	}
+
+	function drawStepsArc (dc, steps, stepGoal){
+		// colors 64-Palette: rose, yellow, blue,green, orange, red, white
+		var palette = 
+			[0xFFAAFF, 0xFFFF00, 0x00AAFF, 0x00AAFF, 0x00FF00, 0xFFAA00,0xFF0000,0xFFFFFF]
+		;	
+		
+		var x = steps%stepGoal;
+		var percent =  (x * 1.0 /stepGoal * 1.0 * 360);
+		var radius = 108;
+
+		var colorint = steps/stepGoal;
+		colorint = colorint.toNumber();
+		if (colorint > 7)
+		{
+			colorint = colorint%7;
+		}
+		dc.setColor(palette[colorint], Gfx.COLOR_TRANSPARENT);
+		dc.setPenWidth(circleWidth);
+		dc.drawArc(centerX, centerY, radius, Gfx.ARC_CLOCKWISE, 90, 90-(percent == 0 ? 1 : percent));
+		
+		
 	}
 
 	function drawMinuteArc (dc){
@@ -297,8 +316,8 @@ class lateView extends Ui.WatchFace {
 		if(bat<=batThreshold){
 
 			var xPos = centerX-10;
-			// var yPos = batteryY;
-			var yPos = 0;
+			var yPos = batteryY;
+			//var yPos = 0;
 			
 			// print the remaining %
 			//var str = bat.format("%d") + "%";
@@ -339,6 +358,66 @@ function ceil (f){
         return f2.toNumber();   
     }
     return -1;
+}
+
+function julian_day(year, month, day)
+{
+var a = (14 - month) / 12;
+var y = (year + 4800 - a);
+var m = (month + 12 * a - 3);
+return day + ((153 * m + 2) / 5) + (365 * y) + (y / 4) - (y / 100) + (y / 400) - 32045;
+}
+
+function is_leap_year(year)
+{
+if (year % 4 != 0) {
+return false;
+}
+else if (year % 100 != 0) {
+return true;
+}
+else if (year % 400 == 0) {
+return true;
+}
+
+return false;
+}
+
+function iso_week_number(year, month, day)
+{
+var first_day_of_year = julian_day(year, 1, 1);
+var given_day_of_year = julian_day(year, month, day);
+
+var day_of_week = (first_day_of_year + 3) % 7; // days past thursday
+var week_of_year = (given_day_of_year - first_day_of_year + day_of_week + 4) / 7;
+
+// week is at end of this year or the beginning of next year
+if (week_of_year == 53) {
+
+if (day_of_week == 6) {
+return week_of_year;
+}
+else if (day_of_week == 5 && is_leap_year(year)) {
+return week_of_year;
+}
+else {
+return 1;
+}
+}
+
+// week is in previous year, try again under that year
+else if (week_of_year == 0) {
+first_day_of_year = julian_day(year - 1, 1, 1);
+
+day_of_week = (first_day_of_year + 3) % 7;
+
+return (given_day_of_year - first_day_of_year + day_of_week + 4) / 7;
+}
+
+// any old week of the year
+else {
+return week_of_year;
+}
 }
 
 

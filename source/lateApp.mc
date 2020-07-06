@@ -9,23 +9,21 @@ using Toybox.StringUtil as Str;
 
 class lateApp extends App.AppBase {
 
-	var watch;
-	var app;
 
 	function initialize() {
-		AppBase.initialize();
-		app = App.getApp();
+        AppBase.initialize();
+        onSettingsChanged();
 	}
 
 	function onSettingsChanged() {
 		Ui.requestUpdate();
 	}
 
-    // onStart() is called on application start up
+    //! onStart() is called on application start up
     function onStart(state) {
     }
 
-    // onStop() is called when your application is exiting
+    //! onStop() is called when your application is exiting
     function onStop(state) {
     }
 

@@ -1,374 +1,431 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <debugInfo>
 <pcToLineNum>
-<entry filename="/Users/nicole/git/late/source/lateApp.mc" id="3" lineNum="15" pc="268435456" symbol="initialize"/>
-<entry filename="/Users/nicole/git/late/source/lateApp.mc" id="3" lineNum="16" pc="268435460" symbol="initialize"/>
-<entry filename="/Users/nicole/git/late/source/lateApp.mc" id="3" lineNum="17" pc="268435478" symbol="initialize"/>
-<entry filename="/Users/nicole/git/late/source/lateApp.mc" id="4" lineNum="20" pc="268435502" symbol="onSettingsChanged"/>
-<entry filename="/Users/nicole/git/late/source/lateApp.mc" id="4" lineNum="21" pc="268435506" symbol="onSettingsChanged"/>
-<entry filename="/Users/nicole/git/late/source/lateApp.mc" id="5" lineNum="25" pc="268435523" symbol="onStart"/>
-<entry filename="/Users/nicole/git/late/source/lateApp.mc" id="6" lineNum="29" pc="268435528" symbol="onStop"/>
-<entry filename="/Users/nicole/git/late/source/lateApp.mc" id="7" lineNum="32" pc="268435533" symbol="getInitialView"/>
-<entry filename="/Users/nicole/git/late/source/lateApp.mc" id="7" lineNum="33" pc="268435537" symbol="getInitialView"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="9" lineNum="30" pc="268435575" symbol="initialize"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="9" lineNum="31" pc="268435579" symbol="initialize"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="9" lineNum="32" pc="268435597" symbol="initialize"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="9" lineNum="33" pc="268435614" symbol="initialize"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="9" lineNum="34" pc="268435630" symbol="initialize"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="9" lineNum="35" pc="268435646" symbol="initialize"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="9" lineNum="36" pc="268435669" symbol="initialize"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="9" lineNum="37" pc="268435692" symbol="initialize"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="10" lineNum="39" pc="268435716" symbol="onLayout"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="10" lineNum="40" pc="268435720" symbol="onLayout"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="11" lineNum="43" pc="268435733" symbol="setLayoutVars"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="11" lineNum="45" pc="268435737" symbol="setLayoutVars"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="11" lineNum="46" pc="268435754" symbol="setLayoutVars"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="11" lineNum="47" pc="268435797" symbol="setLayoutVars"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="11" lineNum="48" pc="268435840" symbol="setLayoutVars"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="11" lineNum="49" pc="268435883" symbol="setLayoutVars"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="11" lineNum="50" pc="268435900" symbol="setLayoutVars"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="11" lineNum="51" pc="268435977" symbol="setLayoutVars"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="11" lineNum="52" pc="268435990" symbol="setLayoutVars"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="11" lineNum="53" pc="268436018" symbol="setLayoutVars"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="11" lineNum="55" pc="268436043" symbol="setLayoutVars"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="11" lineNum="56" pc="268436120" symbol="setLayoutVars"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="11" lineNum="57" pc="268436133" symbol="setLayoutVars"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="11" lineNum="58" pc="268436155" symbol="setLayoutVars"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="11" lineNum="61" pc="268436180" symbol="setLayoutVars"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="11" lineNum="62" pc="268436223" symbol="setLayoutVars"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="11" lineNum="63" pc="268436266" symbol="setLayoutVars"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="11" lineNum="64" pc="268436309" symbol="setLayoutVars"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="11" lineNum="65" pc="268436326" symbol="setLayoutVars"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="11" lineNum="66" pc="268436379" symbol="setLayoutVars"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="11" lineNum="67" pc="268436392" symbol="setLayoutVars"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="11" lineNum="69" pc="268436417" symbol="setLayoutVars"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="11" lineNum="70" pc="268436470" symbol="setLayoutVars"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="11" lineNum="71" pc="268436483" symbol="setLayoutVars"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="11" lineNum="75" pc="268436505" symbol="setLayoutVars"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="11" lineNum="76" pc="268436522" symbol="setLayoutVars"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="11" lineNum="77" pc="268436565" symbol="setLayoutVars"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="11" lineNum="78" pc="268436582" symbol="setLayoutVars"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="11" lineNum="79" pc="268436693" symbol="setLayoutVars"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="11" lineNum="80" pc="268436710" symbol="setLayoutVars"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="11" lineNum="81" pc="268436721" symbol="setLayoutVars"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="11" lineNum="82" pc="268436752" symbol="setLayoutVars"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="11" lineNum="85" pc="268436820" symbol="setLayoutVars"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="11" lineNum="89" pc="268436839" symbol="setLayoutVars"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="11" lineNum="92" pc="268436895" symbol="setLayoutVars"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="12" lineNum="98" pc="268436930" symbol="loadSettings"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="12" lineNum="100" pc="268436934" symbol="loadSettings"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="12" lineNum="101" pc="268436947" symbol="loadSettings"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="12" lineNum="102" pc="268436960" symbol="loadSettings"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="12" lineNum="103" pc="268436973" symbol="loadSettings"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="12" lineNum="104" pc="268436986" symbol="loadSettings"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="12" lineNum="106" pc="268436999" symbol="loadSettings"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="12" lineNum="111" pc="268437283" symbol="loadSettings"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="12" lineNum="112" pc="268437290" symbol="loadSettings"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="12" lineNum="113" pc="268437297" symbol="loadSettings"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="12" lineNum="117" pc="268437313" symbol="loadSettings"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="12" lineNum="118" pc="268437330" symbol="loadSettings"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="12" lineNum="118" pc="268437347" symbol="loadSettings"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="12" lineNum="119" pc="268437393" symbol="loadSettings"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="12" lineNum="119" pc="268437410" symbol="loadSettings"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="12" lineNum="120" pc="268437456" symbol="loadSettings"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="12" lineNum="121" pc="268437503" symbol="loadSettings"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="12" lineNum="122" pc="268437519" symbol="loadSettings"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="12" lineNum="122" pc="268437536" symbol="loadSettings"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="12" lineNum="123" pc="268437582" symbol="loadSettings"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="12" lineNum="123" pc="268437599" symbol="loadSettings"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="12" lineNum="125" pc="268437648" symbol="loadSettings"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="12" lineNum="126" pc="268437661" symbol="loadSettings"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="13" lineNum="130" pc="268437674" symbol="onShow"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="13" lineNum="132" pc="268437678" symbol="onShow"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="14" lineNum="136" pc="268437692" symbol="onHide"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="14" lineNum="138" pc="268437696" symbol="onHide"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="15" lineNum="142" pc="268437710" symbol="onExitSleep"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="15" lineNum="145" pc="268437714" symbol="onExitSleep"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="16" lineNum="149" pc="268437728" symbol="onEnterSleep"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="153" pc="268437733" symbol="onUpdate"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="154" pc="268437737" symbol="onUpdate"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="155" pc="268437757" symbol="onUpdate"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="157" pc="268437770" symbol="onUpdate"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="158" pc="268437793" symbol="onUpdate"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="158" pc="268437839" symbol="onUpdate"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="161" pc="268437855" symbol="onUpdate"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="162" pc="268437883" symbol="onUpdate"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="163" pc="268437895" symbol="onUpdate"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="164" pc="268437917" symbol="onUpdate"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="165" pc="268437961" symbol="onUpdate"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="168" pc="268437977" symbol="onUpdate"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="169" pc="268437994" symbol="onUpdate"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="170" pc="268438008" symbol="onUpdate"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="170" pc="268438019" symbol="onUpdate"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="171" pc="268438032" symbol="onUpdate"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="171" pc="268438043" symbol="onUpdate"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="173" pc="268438056" symbol="onUpdate"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="174" pc="268438088" symbol="onUpdate"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="175" pc="268438179" symbol="onUpdate"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="176" pc="268438193" symbol="onUpdate"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="177" pc="268438207" symbol="onUpdate"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="178" pc="268438224" symbol="onUpdate"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="179" pc="268438256" symbol="onUpdate"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="182" pc="268438263" symbol="onUpdate"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="184" pc="268438276" symbol="onUpdate"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="186" pc="268438374" symbol="onUpdate"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="188" pc="268438401" symbol="onUpdate"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="189" pc="268438460" symbol="onUpdate"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="190" pc="268438477" symbol="onUpdate"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="191" pc="268438496" symbol="onUpdate"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="191" pc="268438513" symbol="onUpdate"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="192" pc="268438535" symbol="onUpdate"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="192" pc="268438552" symbol="onUpdate"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="193" pc="268438576" symbol="onUpdate"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="193" pc="268438593" symbol="onUpdate"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="194" pc="268438621" symbol="onUpdate"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="194" pc="268438638" symbol="onUpdate"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="195" pc="268438668" symbol="onUpdate"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="195" pc="268438685" symbol="onUpdate"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="196" pc="268438707" symbol="onUpdate"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="198" pc="268438714" symbol="onUpdate"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="199" pc="268438746" symbol="onUpdate"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="200" pc="268438759" symbol="onUpdate"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="201" pc="268438776" symbol="onUpdate"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="202" pc="268438851" symbol="onUpdate"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="206" pc="268438962" symbol="onUpdate"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="207" pc="268438994" symbol="onUpdate"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="208" pc="268439044" symbol="onUpdate"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="18" lineNum="214" pc="268439095" symbol="humanizeNumber"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="18" lineNum="215" pc="268439099" symbol="humanizeNumber"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="18" lineNum="216" pc="268439110" symbol="humanizeNumber"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="18" lineNum="218" pc="268439151" symbol="humanizeNumber"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="19" lineNum="224" pc="268439164" symbol="getMarkerCoords"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="19" lineNum="225" pc="268439168" symbol="getMarkerCoords"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="19" lineNum="226" pc="268439233" symbol="getMarkerCoords"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="19" lineNum="227" pc="268439278" symbol="getMarkerCoords"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="19" lineNum="228" pc="268439373" symbol="getMarkerCoords"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="20" lineNum="231" pc="268439455" symbol="drawMinuteArc"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="20" lineNum="233" pc="268439459" symbol="drawMinuteArc"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="20" lineNum="235" pc="268439475" symbol="drawMinuteArc"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="20" lineNum="236" pc="268439504" symbol="drawMinuteArc"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="20" lineNum="237" pc="268439523" symbol="drawMinuteArc"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="20" lineNum="238" pc="268439542" symbol="drawMinuteArc"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="20" lineNum="239" pc="268439549" symbol="drawMinuteArc"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="20" lineNum="244" pc="268439556" symbol="drawMinuteArc"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="20" lineNum="245" pc="268439588" symbol="drawMinuteArc"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="20" lineNum="248" pc="268439658" symbol="drawMinuteArc"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="20" lineNum="249" pc="268439669" symbol="drawMinuteArc"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="20" lineNum="250" pc="268439697" symbol="drawMinuteArc"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="20" lineNum="264" pc="268439717" symbol="drawMinuteArc"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="20" lineNum="265" pc="268439728" symbol="drawMinuteArc"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="20" lineNum="266" pc="268439739" symbol="drawMinuteArc"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="20" lineNum="267" pc="268439746" symbol="drawMinuteArc"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="20" lineNum="268" pc="268439757" symbol="drawMinuteArc"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="20" lineNum="271" pc="268439770" symbol="drawMinuteArc"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="20" lineNum="272" pc="268439795" symbol="drawMinuteArc"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="20" lineNum="275" pc="268439805" symbol="drawMinuteArc"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="20" lineNum="279" pc="268439815" symbol="drawMinuteArc"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="20" lineNum="280" pc="268439826" symbol="drawMinuteArc"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="20" lineNum="282" pc="268439836" symbol="drawMinuteArc"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="20" lineNum="283" pc="268439847" symbol="drawMinuteArc"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="20" lineNum="285" pc="268439857" symbol="drawMinuteArc"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="20" lineNum="290" pc="268439864" symbol="drawMinuteArc"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="21" lineNum="295" pc="268439941" symbol="drawBatteryLevel"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="21" lineNum="296" pc="268439945" symbol="drawBatteryLevel"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="21" lineNum="297" pc="268439968" symbol="drawBatteryLevel"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="21" lineNum="299" pc="268439982" symbol="drawBatteryLevel"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="21" lineNum="301" pc="268439998" symbol="drawBatteryLevel"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="21" lineNum="305" pc="268440005" symbol="drawBatteryLevel"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="21" lineNum="306" pc="268440033" symbol="drawBatteryLevel"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="21" lineNum="307" pc="268440050" symbol="drawBatteryLevel"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="21" lineNum="309" pc="268440076" symbol="drawBatteryLevel"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="21" lineNum="310" pc="268440087" symbol="drawBatteryLevel"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="21" lineNum="312" pc="268440122" symbol="drawBatteryLevel"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="21" lineNum="317" pc="268440154" symbol="drawBatteryLevel"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="21" lineNum="318" pc="268440180" symbol="drawBatteryLevel"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="21" lineNum="320" pc="268440218" symbol="drawBatteryLevel"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="21" lineNum="321" pc="268440245" symbol="drawBatteryLevel"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="21" lineNum="321" pc="268440256" symbol="drawBatteryLevel"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="21" lineNum="323" pc="268440294" symbol="drawBatteryLevel"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="21" lineNum="324" pc="268440326" symbol="drawBatteryLevel"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="22" lineNum="329" pc="268440368" symbol="floor"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="22" lineNum="330" pc="268440372" symbol="floor"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="22" lineNum="331" pc="268440398" symbol="floor"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="22" lineNum="333" pc="268440413" symbol="floor"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="23" lineNum="336" pc="268440420" symbol="ceil"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="23" lineNum="337" pc="268440424" symbol="ceil"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="23" lineNum="338" pc="268440434" symbol="ceil"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="23" lineNum="339" pc="268440460" symbol="ceil"/>
-<entry filename="/Users/nicole/git/late/source/lateView.mc" id="23" lineNum="341" pc="268440475" symbol="ceil"/>
-<entry filename="Rez" id="29" lineNum="29" pc="268440482" symbol="WatchFace"/>
-<entry filename="Rez" id="29" lineNum="31" pc="268440494" symbol="WatchFace"/>
-<entry filename="Rez" id="29" lineNum="33" pc="268440670" symbol="WatchFace"/>
+<entry filename="/Users/nicole/git/late/source/lateApp.mc" id="3" lineNum="13" pc="268435456" symbol="initialize"/>
+<entry filename="/Users/nicole/git/late/source/lateApp.mc" id="3" lineNum="14" pc="268435460" symbol="initialize"/>
+<entry filename="/Users/nicole/git/late/source/lateApp.mc" id="3" lineNum="15" pc="268435478" symbol="initialize"/>
+<entry filename="/Users/nicole/git/late/source/lateApp.mc" id="4" lineNum="18" pc="268435491" symbol="onSettingsChanged"/>
+<entry filename="/Users/nicole/git/late/source/lateApp.mc" id="4" lineNum="19" pc="268435495" symbol="onSettingsChanged"/>
+<entry filename="/Users/nicole/git/late/source/lateApp.mc" id="5" lineNum="23" pc="268435512" symbol="onStart"/>
+<entry filename="/Users/nicole/git/late/source/lateApp.mc" id="6" lineNum="27" pc="268435517" symbol="onStop"/>
+<entry filename="/Users/nicole/git/late/source/lateApp.mc" id="7" lineNum="30" pc="268435522" symbol="getInitialView"/>
+<entry filename="/Users/nicole/git/late/source/lateApp.mc" id="7" lineNum="31" pc="268435526" symbol="getInitialView"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="9" lineNum="30" pc="268435564" symbol="initialize"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="9" lineNum="31" pc="268435568" symbol="initialize"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="9" lineNum="32" pc="268435586" symbol="initialize"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="9" lineNum="33" pc="268435603" symbol="initialize"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="9" lineNum="34" pc="268435619" symbol="initialize"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="9" lineNum="35" pc="268435635" symbol="initialize"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="9" lineNum="36" pc="268435658" symbol="initialize"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="9" lineNum="37" pc="268435681" symbol="initialize"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="10" lineNum="39" pc="268435705" symbol="onLayout"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="10" lineNum="40" pc="268435709" symbol="onLayout"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="11" lineNum="43" pc="268435722" symbol="setLayoutVars"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="11" lineNum="46" pc="268435726" symbol="setLayoutVars"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="11" lineNum="47" pc="268435769" symbol="setLayoutVars"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="11" lineNum="48" pc="268435812" symbol="setLayoutVars"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="11" lineNum="49" pc="268435855" symbol="setLayoutVars"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="11" lineNum="50" pc="268435872" symbol="setLayoutVars"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="11" lineNum="51" pc="268435925" symbol="setLayoutVars"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="11" lineNum="52" pc="268435938" symbol="setLayoutVars"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="11" lineNum="54" pc="268435963" symbol="setLayoutVars"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="11" lineNum="55" pc="268436016" symbol="setLayoutVars"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="11" lineNum="56" pc="268436029" symbol="setLayoutVars"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="11" lineNum="60" pc="268436051" symbol="setLayoutVars"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="11" lineNum="61" pc="268436068" symbol="setLayoutVars"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="11" lineNum="62" pc="268436111" symbol="setLayoutVars"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="11" lineNum="63" pc="268436128" symbol="setLayoutVars"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="11" lineNum="64" pc="268436239" symbol="setLayoutVars"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="11" lineNum="65" pc="268436256" symbol="setLayoutVars"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="11" lineNum="66" pc="268436267" symbol="setLayoutVars"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="11" lineNum="67" pc="268436298" symbol="setLayoutVars"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="11" lineNum="70" pc="268436366" symbol="setLayoutVars"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="11" lineNum="74" pc="268436385" symbol="setLayoutVars"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="11" lineNum="77" pc="268436441" symbol="setLayoutVars"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="12" lineNum="83" pc="268436476" symbol="loadSettings"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="12" lineNum="85" pc="268436480" symbol="loadSettings"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="12" lineNum="86" pc="268436493" symbol="loadSettings"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="12" lineNum="87" pc="268436506" symbol="loadSettings"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="12" lineNum="88" pc="268436519" symbol="loadSettings"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="12" lineNum="89" pc="268436532" symbol="loadSettings"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="12" lineNum="92" pc="268436545" symbol="loadSettings"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="12" lineNum="93" pc="268436552" symbol="loadSettings"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="12" lineNum="94" pc="268436559" symbol="loadSettings"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="12" lineNum="98" pc="268436575" symbol="loadSettings"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="12" lineNum="99" pc="268436592" symbol="loadSettings"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="12" lineNum="99" pc="268436609" symbol="loadSettings"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="12" lineNum="100" pc="268436655" symbol="loadSettings"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="12" lineNum="100" pc="268436672" symbol="loadSettings"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="12" lineNum="101" pc="268436718" symbol="loadSettings"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="12" lineNum="102" pc="268436765" symbol="loadSettings"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="12" lineNum="103" pc="268436781" symbol="loadSettings"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="12" lineNum="103" pc="268436798" symbol="loadSettings"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="12" lineNum="104" pc="268436844" symbol="loadSettings"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="12" lineNum="104" pc="268436861" symbol="loadSettings"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="12" lineNum="106" pc="268436910" symbol="loadSettings"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="12" lineNum="107" pc="268436923" symbol="loadSettings"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="13" lineNum="111" pc="268436936" symbol="onShow"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="13" lineNum="113" pc="268436940" symbol="onShow"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="14" lineNum="117" pc="268436954" symbol="onHide"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="14" lineNum="119" pc="268436958" symbol="onHide"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="15" lineNum="123" pc="268436972" symbol="onExitSleep"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="15" lineNum="126" pc="268436976" symbol="onExitSleep"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="16" lineNum="130" pc="268436990" symbol="onEnterSleep"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="134" pc="268436995" symbol="onUpdate"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="135" pc="268436999" symbol="onUpdate"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="136" pc="268437006" symbol="onUpdate"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="137" pc="268437026" symbol="onUpdate"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="139" pc="268437039" symbol="onUpdate"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="140" pc="268437062" symbol="onUpdate"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="140" pc="268437108" symbol="onUpdate"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="142" pc="268437124" symbol="onUpdate"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="143" pc="268437152" symbol="onUpdate"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="144" pc="268437164" symbol="onUpdate"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="145" pc="268437186" symbol="onUpdate"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="146" pc="268437230" symbol="onUpdate"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="149" pc="268437246" symbol="onUpdate"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="150" pc="268437263" symbol="onUpdate"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="151" pc="268437277" symbol="onUpdate"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="151" pc="268437288" symbol="onUpdate"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="152" pc="268437301" symbol="onUpdate"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="152" pc="268437312" symbol="onUpdate"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="154" pc="268437325" symbol="onUpdate"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="155" pc="268437357" symbol="onUpdate"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="156" pc="268437448" symbol="onUpdate"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="157" pc="268437462" symbol="onUpdate"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="160" pc="268437476" symbol="onUpdate"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="161" pc="268437508" symbol="onUpdate"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="165" pc="268437515" symbol="onUpdate"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="166" pc="268437610" symbol="onUpdate"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="168" pc="268437637" symbol="onUpdate"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="172" pc="268437699" symbol="onUpdate"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="173" pc="268437716" symbol="onUpdate"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="174" pc="268437735" symbol="onUpdate"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="176" pc="268437754" symbol="onUpdate"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="176" pc="268437771" symbol="onUpdate"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="177" pc="268437793" symbol="onUpdate"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="177" pc="268437810" symbol="onUpdate"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="178" pc="268437834" symbol="onUpdate"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="178" pc="268437851" symbol="onUpdate"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="179" pc="268437879" symbol="onUpdate"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="179" pc="268437896" symbol="onUpdate"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="180" pc="268437926" symbol="onUpdate"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="180" pc="268437943" symbol="onUpdate"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="181" pc="268437965" symbol="onUpdate"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="183" pc="268437972" symbol="onUpdate"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="184" pc="268438004" symbol="onUpdate"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="185" pc="268438017" symbol="onUpdate"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="186" pc="268438034" symbol="onUpdate"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="187" pc="268438109" symbol="onUpdate"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="189" pc="268438214" symbol="onUpdate"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="191" pc="268438231" symbol="onUpdate"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="195" pc="268438267" symbol="onUpdate"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="199" pc="268438274" symbol="onUpdate"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="200" pc="268438306" symbol="onUpdate"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="203" pc="268438410" symbol="onUpdate"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="17" lineNum="204" pc="268438442" symbol="onUpdate"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="18" lineNum="210" pc="268438496" symbol="humanizeNumber"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="18" lineNum="211" pc="268438500" symbol="humanizeNumber"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="18" lineNum="212" pc="268438511" symbol="humanizeNumber"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="18" lineNum="214" pc="268438552" symbol="humanizeNumber"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="19" lineNum="220" pc="268438565" symbol="getMarkerCoords"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="19" lineNum="221" pc="268438569" symbol="getMarkerCoords"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="19" lineNum="222" pc="268438634" symbol="getMarkerCoords"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="19" lineNum="223" pc="268438679" symbol="getMarkerCoords"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="19" lineNum="224" pc="268438774" symbol="getMarkerCoords"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="20" lineNum="227" pc="268438856" symbol="drawStepsArc"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="20" lineNum="229" pc="268438860" symbol="drawStepsArc"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="20" lineNum="233" pc="268438972" symbol="drawStepsArc"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="20" lineNum="234" pc="268438979" symbol="drawStepsArc"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="20" lineNum="235" pc="268439004" symbol="drawStepsArc"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="20" lineNum="237" pc="268439011" symbol="drawStepsArc"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="20" lineNum="238" pc="268439018" symbol="drawStepsArc"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="20" lineNum="239" pc="268439031" symbol="drawStepsArc"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="20" lineNum="241" pc="268439042" symbol="drawStepsArc"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="20" lineNum="243" pc="268439055" symbol="drawStepsArc"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="20" lineNum="244" pc="268439084" symbol="drawStepsArc"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="20" lineNum="245" pc="268439104" symbol="drawStepsArc"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="21" lineNum="250" pc="268439179" symbol="drawMinuteArc"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="21" lineNum="252" pc="268439183" symbol="drawMinuteArc"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="21" lineNum="254" pc="268439199" symbol="drawMinuteArc"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="21" lineNum="255" pc="268439228" symbol="drawMinuteArc"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="21" lineNum="256" pc="268439247" symbol="drawMinuteArc"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="21" lineNum="257" pc="268439266" symbol="drawMinuteArc"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="21" lineNum="258" pc="268439273" symbol="drawMinuteArc"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="21" lineNum="263" pc="268439280" symbol="drawMinuteArc"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="21" lineNum="264" pc="268439312" symbol="drawMinuteArc"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="21" lineNum="267" pc="268439382" symbol="drawMinuteArc"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="21" lineNum="268" pc="268439393" symbol="drawMinuteArc"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="21" lineNum="269" pc="268439421" symbol="drawMinuteArc"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="21" lineNum="283" pc="268439441" symbol="drawMinuteArc"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="21" lineNum="284" pc="268439452" symbol="drawMinuteArc"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="21" lineNum="285" pc="268439463" symbol="drawMinuteArc"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="21" lineNum="286" pc="268439470" symbol="drawMinuteArc"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="21" lineNum="287" pc="268439481" symbol="drawMinuteArc"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="21" lineNum="290" pc="268439494" symbol="drawMinuteArc"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="21" lineNum="291" pc="268439519" symbol="drawMinuteArc"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="21" lineNum="294" pc="268439529" symbol="drawMinuteArc"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="21" lineNum="298" pc="268439539" symbol="drawMinuteArc"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="21" lineNum="299" pc="268439550" symbol="drawMinuteArc"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="21" lineNum="301" pc="268439560" symbol="drawMinuteArc"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="21" lineNum="302" pc="268439571" symbol="drawMinuteArc"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="21" lineNum="304" pc="268439581" symbol="drawMinuteArc"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="21" lineNum="309" pc="268439588" symbol="drawMinuteArc"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="22" lineNum="314" pc="268439665" symbol="drawBatteryLevel"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="22" lineNum="315" pc="268439669" symbol="drawBatteryLevel"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="22" lineNum="316" pc="268439692" symbol="drawBatteryLevel"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="22" lineNum="318" pc="268439706" symbol="drawBatteryLevel"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="22" lineNum="319" pc="268439722" symbol="drawBatteryLevel"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="22" lineNum="324" pc="268439732" symbol="drawBatteryLevel"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="22" lineNum="325" pc="268439760" symbol="drawBatteryLevel"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="22" lineNum="326" pc="268439777" symbol="drawBatteryLevel"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="22" lineNum="328" pc="268439803" symbol="drawBatteryLevel"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="22" lineNum="329" pc="268439814" symbol="drawBatteryLevel"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="22" lineNum="331" pc="268439849" symbol="drawBatteryLevel"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="22" lineNum="336" pc="268439881" symbol="drawBatteryLevel"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="22" lineNum="337" pc="268439907" symbol="drawBatteryLevel"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="22" lineNum="339" pc="268439945" symbol="drawBatteryLevel"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="22" lineNum="340" pc="268439972" symbol="drawBatteryLevel"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="22" lineNum="340" pc="268439983" symbol="drawBatteryLevel"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="22" lineNum="342" pc="268440021" symbol="drawBatteryLevel"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="22" lineNum="343" pc="268440053" symbol="drawBatteryLevel"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="23" lineNum="348" pc="268440095" symbol="floor"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="23" lineNum="349" pc="268440099" symbol="floor"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="23" lineNum="350" pc="268440125" symbol="floor"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="23" lineNum="352" pc="268440140" symbol="floor"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="24" lineNum="355" pc="268440147" symbol="ceil"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="24" lineNum="356" pc="268440151" symbol="ceil"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="24" lineNum="357" pc="268440161" symbol="ceil"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="24" lineNum="358" pc="268440187" symbol="ceil"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="24" lineNum="360" pc="268440202" symbol="ceil"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="25" lineNum="363" pc="268440209" symbol="julian_day"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="25" lineNum="365" pc="268440213" symbol="julian_day"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="25" lineNum="366" pc="268440229" symbol="julian_day"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="25" lineNum="367" pc="268440242" symbol="julian_day"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="25" lineNum="368" pc="268440261" symbol="julian_day"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="26" lineNum="371" pc="268440328" symbol="is_leap_year"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="26" lineNum="373" pc="268440332" symbol="is_leap_year"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="26" lineNum="374" pc="268440349" symbol="is_leap_year"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="26" lineNum="376" pc="268440355" symbol="is_leap_year"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="26" lineNum="377" pc="268440372" symbol="is_leap_year"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="26" lineNum="379" pc="268440378" symbol="is_leap_year"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="26" lineNum="380" pc="268440395" symbol="is_leap_year"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="26" lineNum="383" pc="268440401" symbol="is_leap_year"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="27" lineNum="386" pc="268440405" symbol="iso_week_number"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="27" lineNum="388" pc="268440409" symbol="iso_week_number"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="27" lineNum="389" pc="268440434" symbol="iso_week_number"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="27" lineNum="391" pc="268440453" symbol="iso_week_number"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="27" lineNum="392" pc="268440469" symbol="iso_week_number"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="27" lineNum="395" pc="268440491" symbol="iso_week_number"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="27" lineNum="397" pc="268440502" symbol="iso_week_number"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="27" lineNum="398" pc="268440513" symbol="iso_week_number"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="27" lineNum="400" pc="268440519" symbol="iso_week_number"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="27" lineNum="401" pc="268440549" symbol="iso_week_number"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="27" lineNum="404" pc="268440555" symbol="iso_week_number"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="27" lineNum="409" pc="268440564" symbol="iso_week_number"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="27" lineNum="410" pc="268440575" symbol="iso_week_number"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="27" lineNum="412" pc="268440606" symbol="iso_week_number"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="27" lineNum="414" pc="268440622" symbol="iso_week_number"/>
+<entry filename="/Users/nicole/git/late/source/lateView.mc" id="27" lineNum="419" pc="268440646" symbol="iso_week_number"/>
+<entry filename="Rez" id="33" lineNum="29" pc="268440650" symbol="WatchFace"/>
+<entry filename="Rez" id="33" lineNum="31" pc="268440662" symbol="WatchFace"/>
+<entry filename="Rez" id="33" lineNum="33" pc="268440838" symbol="WatchFace"/>
 </pcToLineNum>
 <symbolTable>
 <entry id="8388639" module="true" symbol="Graphics"/>
-<entry field="true" id="17" symbol="Cal"/>
-<entry field="true" id="78" symbol="sunst"/>
+<entry field="true" id="15" symbol="Cal"/>
+<entry field="true" id="76" symbol="sunst"/>
 <entry id="8389346" symbol="text"/>
-<entry field="true" id="77" symbol="sunrs"/>
-<entry id="93" method="true" symbol="setLayoutVars"/>
-<entry field="true" id="64" symbol="ColorPurple"/>
-<entry field="true" id="88" symbol="batteryY"/>
-<entry field="true" id="18" symbol="Steps"/>
-<entry field="true" id="46" symbol="ColorGreen"/>
+<entry field="true" id="75" symbol="sunrs"/>
+<entry id="91" method="true" symbol="setLayoutVars"/>
+<entry field="true" id="62" symbol="ColorPurple"/>
+<entry field="true" id="86" symbol="batteryY"/>
+<entry field="true" id="16" symbol="Steps"/>
+<entry field="true" id="44" symbol="ColorGreen"/>
 <entry id="8389683" method="true" symbol="onSettingsChanged"/>
 <entry id="10" object="true" symbol="lateView"/>
 <entry field="true" id="8389759" symbol="radius"/>
-<entry field="true" id="37" symbol="ColorRed"/>
-<entry field="true" id="55" symbol="CIQ"/>
-<entry id="98" method="true" symbol="drawBatteryLevel"/>
-<entry field="true" id="61" symbol="ColorGray"/>
-<entry field="true" id="21" symbol="Bat"/>
-<entry field="true" id="24" symbol="HoursStrong"/>
-<entry field="true" id="85" symbol="dateY"/>
-<entry field="true" id="80" symbol="utcOffset"/>
+<entry id="98" method="true" symbol="julian_day"/>
+<entry field="true" id="35" symbol="ColorRed"/>
+<entry field="true" id="53" symbol="CIQ"/>
+<entry id="97" method="true" symbol="drawBatteryLevel"/>
+<entry field="true" id="59" symbol="ColorGray"/>
+<entry field="true" id="19" symbol="Bat"/>
+<entry field="true" id="22" symbol="HoursStrong"/>
+<entry field="true" id="83" symbol="dateY"/>
+<entry field="true" id="78" symbol="utcOffset"/>
 <entry field="true" id="8388611" module="true" symbol="Toybox"/>
-<entry field="true" id="30" symbol="ColorBlue"/>
-<entry field="true" id="12" symbol="app"/>
-<entry field="true" id="36" symbol="AppName"/>
-<entry field="true" id="90" symbol="redrawAll"/>
-<entry field="true" id="86" symbol="circleWidth"/>
+<entry field="true" id="28" symbol="ColorBlue"/>
+<entry field="true" id="34" symbol="AppName"/>
+<entry field="true" id="88" symbol="redrawAll"/>
+<entry field="true" id="84" symbol="circleWidth"/>
 <entry id="8388772" module="true" object="true" symbol="Fonts"/>
 <entry id="8388631" module="true" symbol="Activity"/>
 <entry id="8388648" module="true" symbol="WatchUi"/>
-<entry field="true" id="56" symbol="ColorOrange"/>
-<entry field="true" id="49" symbol="BellowThird"/>
-<entry field="true" id="34" symbol="ToneTitle"/>
-<entry field="true" id="66" symbol="Always"/>
+<entry field="true" id="54" symbol="ColorOrange"/>
+<entry field="true" id="47" symbol="BellowThird"/>
+<entry field="true" id="32" symbol="ToneTitle"/>
+<entry field="true" id="64" symbol="Always"/>
 <entry id="8389124" method="true" symbol="onUpdate"/>
 <entry id="8389375" method="true" object="true" symbol="WatchFace"/>
 <entry field="true" id="8389065" symbol="locY"/>
 <entry field="true" id="8389064" symbol="locX"/>
-<entry field="true" id="73" symbol="darkFGColor"/>
-<entry field="true" id="15" symbol="Sunset"/>
-<entry field="true" id="91" symbol="lastRedrawMin"/>
-<entry field="true" id="19" symbol="Minutes"/>
-<entry field="true" id="63" symbol="BellowFive"/>
+<entry field="true" id="71" symbol="darkFGColor"/>
+<entry field="true" id="13" symbol="Sunset"/>
+<entry field="true" id="89" symbol="lastRedrawMin"/>
+<entry field="true" id="17" symbol="Minutes"/>
+<entry field="true" id="61" symbol="BellowFive"/>
 <entry id="8388771" module="true" object="true" symbol="Drawables"/>
 <entry id="8389348" symbol="font"/>
 <entry field="true" id="8389067" symbol="height"/>
-<entry field="true" id="50" symbol="s1"/>
-<entry field="true" id="48" symbol="s0"/>
-<entry id="14" module="true" symbol="Menus"/>
+<entry field="true" id="48" symbol="s1"/>
+<entry field="true" id="46" symbol="s0"/>
+<entry id="12" module="true" symbol="Menus"/>
+<entry id="100" method="true" symbol="iso_week_number"/>
 <entry field="true" id="8389066" symbol="width"/>
 <entry id="8389122" method="true" symbol="onLayout"/>
-<entry field="true" id="31" symbol="BellowTwenty"/>
+<entry field="true" id="29" symbol="BellowTwenty"/>
 <entry id="8389376" method="true" symbol="onEnterSleep"/>
-<entry field="true" id="29" symbol="Condensed"/>
-<entry field="true" id="57" symbol="DialSize"/>
+<entry field="true" id="27" symbol="Condensed"/>
+<entry field="true" id="55" symbol="DialSize"/>
 <entry field="true" id="8389063" symbol="identifier"/>
-<entry field="true" id="60" symbol="Dark"/>
+<entry field="true" id="58" symbol="Dark"/>
 <entry id="8389349" symbol="justification"/>
-<entry field="true" id="35" symbol="BatteryTitle"/>
-<entry id="97" method="true" symbol="drawMinuteArc"/>
-<entry field="true" id="44" symbol="b9"/>
-<entry field="true" id="42" symbol="b7"/>
-<entry field="true" id="40" symbol="b5"/>
-<entry field="true" id="39" symbol="b4"/>
-<entry field="true" id="38" symbol="b3"/>
-<entry field="true" id="75" symbol="dataLoading"/>
-<entry field="true" id="43" symbol="Light"/>
-<entry field="true" id="74" symbol="activity"/>
-<entry field="true" id="23" symbol="Hours"/>
+<entry field="true" id="33" symbol="BatteryTitle"/>
+<entry id="96" method="true" symbol="drawMinuteArc"/>
+<entry field="true" id="42" symbol="b9"/>
+<entry field="true" id="40" symbol="b7"/>
+<entry field="true" id="38" symbol="b5"/>
+<entry field="true" id="37" symbol="b4"/>
+<entry field="true" id="36" symbol="b3"/>
+<entry field="true" id="73" symbol="dataLoading"/>
+<entry field="true" id="41" symbol="Light"/>
+<entry field="true" id="72" symbol="activity"/>
+<entry field="true" id="21" symbol="Hours"/>
 <entry id="8389717" method="true" symbol="ceil"/>
-<entry field="true" id="52" symbol="DataLoading"/>
+<entry field="true" id="50" symbol="DataLoading"/>
 <entry field="true" id="8389870" symbol="activeMinutesDay"/>
-<entry field="true" id="26" symbol="MinuteStrong"/>
-<entry field="true" id="84" symbol="fontCondensed"/>
-<entry field="true" id="33" symbol="showSunriseSunsetTitle"/>
-<entry field="true" id="89" symbol="activityY"/>
+<entry field="true" id="24" symbol="MinuteStrong"/>
+<entry field="true" id="82" symbol="fontCondensed"/>
+<entry field="true" id="31" symbol="showSunriseSunsetTitle"/>
+<entry field="true" id="87" symbol="activityY"/>
 <entry id="8389377" method="true" symbol="onExitSleep"/>
-<entry field="true" id="83" symbol="fontHours"/>
+<entry field="true" id="81" symbol="fontHours"/>
 <entry id="8388645" module="true" symbol="Time"/>
 <entry id="8388769" module="true" object="true" symbol="Rez"/>
-<entry field="true" id="41" symbol="ActivityTitle"/>
-<entry field="true" id="58" symbol="DateFormTitle"/>
-<entry field="true" id="69" symbol="batThreshold"/>
-<entry field="true" id="47" symbol="Boldness"/>
-<entry field="true" id="82" symbol="fontMinutes"/>
-<entry field="true" id="87" symbol="dialSize"/>
-<entry field="true" id="27" symbol="Small"/>
+<entry field="true" id="39" symbol="ActivityTitle"/>
+<entry field="true" id="56" symbol="DateFormTitle"/>
+<entry field="true" id="67" symbol="batThreshold"/>
+<entry field="true" id="45" symbol="Boldness"/>
+<entry field="true" id="80" symbol="fontMinutes"/>
+<entry field="true" id="85" symbol="dialSize"/>
+<entry field="true" id="25" symbol="Small"/>
 <entry id="8388640" module="true" symbol="Lang"/>
 <entry id="8390088" module="true" object="true" symbol="JsonData"/>
-<entry field="true" id="22" symbol="LauncherIcon"/>
-<entry field="true" id="79" symbol="clockTime"/>
+<entry field="true" id="20" symbol="LauncherIcon"/>
+<entry field="true" id="77" symbol="clockTime"/>
 <entry id="8389123" method="true" symbol="onShow"/>
-<entry id="96" method="true" symbol="getMarkerCoords"/>
-<entry field="true" id="76" symbol="icon"/>
-<entry field="true" id="16" symbol="Sunrise"/>
-<entry id="95" method="true" symbol="humanizeNumber"/>
-<entry field="true" id="25" symbol="Minute"/>
-<entry field="true" id="67" symbol="CENTER"/>
-<entry field="true" id="20" symbol="Floors"/>
+<entry id="94" method="true" symbol="getMarkerCoords"/>
+<entry field="true" id="74" symbol="icon"/>
+<entry field="true" id="14" symbol="Sunrise"/>
+<entry id="95" method="true" symbol="drawStepsArc"/>
+<entry id="93" method="true" symbol="humanizeNumber"/>
+<entry field="true" id="23" symbol="Minute"/>
+<entry field="true" id="65" symbol="CENTER"/>
+<entry field="true" id="18" symbol="Floors"/>
 <entry id="8388770" module="true" object="true" symbol="Strings"/>
 <entry id="8390146" module="true" symbol="Background"/>
-<entry field="true" id="71" symbol="centerY"/>
-<entry field="true" id="70" symbol="centerX"/>
+<entry field="true" id="69" symbol="centerY"/>
+<entry field="true" id="68" symbol="centerX"/>
 <entry id="9" object="true" symbol="lateApp"/>
-<entry field="true" id="92" symbol="weekday_abbr_cache"/>
+<entry field="true" id="90" symbol="weekday_abbr_cache"/>
 <entry id="8388702" method="true" symbol="initialize"/>
-<entry field="true" id="68" symbol="dateForm"/>
+<entry field="true" id="66" symbol="dateForm"/>
 <entry id="8389279" method="true" symbol="onStart"/>
-<entry field="true" id="81" symbol="fontSmall"/>
-<entry field="true" id="45" symbol="DnD"/>
+<entry field="true" id="79" symbol="fontSmall"/>
+<entry field="true" id="43" symbol="DnD"/>
 <entry id="8388641" module="true" symbol="Math"/>
-<entry field="true" id="11" symbol="watch"/>
-<entry field="true" id="53" symbol="DateFormMonth"/>
-<entry field="true" id="72" symbol="lightFGColor"/>
+<entry id="99" method="true" symbol="is_leap_year"/>
+<entry field="true" id="51" symbol="DateFormMonth"/>
+<entry field="true" id="70" symbol="lightFGColor"/>
 <entry id="8389280" method="true" symbol="getInitialView"/>
 <entry id="8389281" method="true" symbol="onStop"/>
 <entry field="true" id="8389347" symbol="color"/>
 <entry field="true" id="8388939" symbol="day"/>
-<entry field="true" id="28" symbol="SmallStrong"/>
-<entry field="true" id="51" symbol="AppVersionTitle"/>
-<entry id="13" module="true" symbol="Layouts"/>
-<entry field="true" id="59" symbol="Calories"/>
-<entry id="94" method="true" symbol="loadSettings"/>
+<entry field="true" id="26" symbol="SmallStrong"/>
+<entry field="true" id="49" symbol="AppVersionTitle"/>
+<entry id="11" module="true" symbol="Layouts"/>
+<entry field="true" id="57" symbol="Calories"/>
+<entry id="92" method="true" symbol="loadSettings"/>
 <entry id="8389718" method="true" symbol="floor"/>
 <entry field="true" id="8389743" symbol="backgroundColor"/>
 <entry id="8389125" method="true" symbol="onHide"/>
-<entry field="true" id="54" symbol="BellowTen"/>
-<entry field="true" id="65" symbol="DateFormDayOfWeek"/>
-<entry field="true" id="32" symbol="ColorTitle"/>
-<entry field="true" id="62" symbol="BellowHalf"/>
+<entry field="true" id="52" symbol="BellowTen"/>
+<entry field="true" id="63" symbol="DateFormDayOfWeek"/>
+<entry field="true" id="30" symbol="ColorTitle"/>
+<entry field="true" id="60" symbol="BellowHalf"/>
 </symbolTable>
 <localVars>
-<entry endPc="268435528" name="state" stackId="1" startPc="268435523"/>
-<entry endPc="268435533" name="state" stackId="1" startPc="268435528"/>
-<entry endPc="268435715" name="set" stackId="1" startPc="268435579"/>
-<entry endPc="268435733" name="dc" stackId="1" startPc="268435716"/>
-<entry endPc="268436817" name="eventHeight" stackId="1" startPc="268436721"/>
-<entry endPc="268437673" name="palette" stackId="1" startPc="268436934"/>
-<entry endPc="268437673" name="mainColor" stackId="3" startPc="268436934"/>
-<entry endPc="268437673" name="tone" stackId="2" startPc="268436934"/>
-<entry endPc="268438959" name="text" stackId="5" startPc="268438224"/>
-<entry endPc="268439094" name="h" stackId="3" startPc="268437737"/>
-<entry endPc="268439094" name="info" stackId="2" startPc="268437737"/>
-<entry endPc="268439094" name="set" stackId="4" startPc="268437737"/>
-<entry endPc="268439095" name="dc" stackId="1" startPc="268437733"/>
-<entry endPc="268439164" name="number" stackId="1" startPc="268439095"/>
-<entry endPc="268439454" name="secondsFromLastHour" stackId="3" startPc="268439168"/>
-<entry endPc="268439454" name="a" stackId="4" startPc="268439168"/>
-<entry endPc="268439454" name="r" stackId="5" startPc="268439168"/>
-<entry endPc="268439455" name="event" stackId="1" startPc="268439164"/>
-<entry endPc="268439455" name="tillStart" stackId="2" startPc="268439164"/>
-<entry endPc="268439940" name="sin" stackId="5" startPc="268439459"/>
-<entry endPc="268439940" name="minutes" stackId="2" startPc="268439459"/>
-<entry endPc="268439940" name="cos" stackId="4" startPc="268439459"/>
-<entry endPc="268439940" name="offset" stackId="6" startPc="268439459"/>
-<entry endPc="268439940" name="angle" stackId="3" startPc="268439459"/>
-<entry endPc="268439940" name="gap" stackId="7" startPc="268439459"/>
-<entry endPc="268439941" name="dc" stackId="1" startPc="268439455"/>
-<entry endPc="268440364" name="lvl" stackId="5" startPc="268439982"/>
-<entry endPc="268440364" name="yPos" stackId="4" startPc="268439982"/>
-<entry endPc="268440364" name="xPos" stackId="3" startPc="268439982"/>
-<entry endPc="268440367" name="bat" stackId="2" startPc="268439945"/>
-<entry endPc="268440368" name="dc" stackId="1" startPc="268439941"/>
-<entry endPc="268440420" name="f" stackId="1" startPc="268440368"/>
-<entry endPc="268440481" name="f2" stackId="2" startPc="268440424"/>
-<entry endPc="268440482" name="f" stackId="1" startPc="268440420"/>
-<entry endPc="268440687" name="rez_cmp_local_text_TimeLabel" stackId="2" startPc="268440494"/>
-<entry endPc="268440688" name="dc" stackId="1" startPc="268440482"/>
+<entry endPc="268435517" name="state" stackId="1" startPc="268435512"/>
+<entry endPc="268435522" name="state" stackId="1" startPc="268435517"/>
+<entry endPc="268435704" name="set" stackId="1" startPc="268435568"/>
+<entry endPc="268435722" name="dc" stackId="1" startPc="268435705"/>
+<entry endPc="268436363" name="eventHeight" stackId="1" startPc="268436267"/>
+<entry endPc="268436935" name="mainColor" stackId="2" startPc="268436480"/>
+<entry endPc="268436935" name="tone" stackId="1" startPc="268436480"/>
+<entry endPc="268438264" name="activityinfo" stackId="7" startPc="268437716"/>
+<entry endPc="268438495" name="h" stackId="4" startPc="268436999"/>
+<entry endPc="268438495" name="info" stackId="3" startPc="268436999"/>
+<entry endPc="268438495" name="radiussteps" stackId="8" startPc="268436999"/>
+<entry endPc="268438495" name="text" stackId="6" startPc="268436999"/>
+<entry endPc="268438495" name="offset" stackId="2" startPc="268436999"/>
+<entry endPc="268438495" name="set" stackId="5" startPc="268436999"/>
+<entry endPc="268438496" name="dc" stackId="1" startPc="268436995"/>
+<entry endPc="268438565" name="number" stackId="1" startPc="268438496"/>
+<entry endPc="268438855" name="secondsFromLastHour" stackId="3" startPc="268438569"/>
+<entry endPc="268438855" name="a" stackId="4" startPc="268438569"/>
+<entry endPc="268438855" name="r" stackId="5" startPc="268438569"/>
+<entry endPc="268438856" name="event" stackId="1" startPc="268438565"/>
+<entry endPc="268438856" name="tillStart" stackId="2" startPc="268438565"/>
+<entry endPc="268439178" name="radius" stackId="7" startPc="268438860"/>
+<entry endPc="268439178" name="x" stackId="5" startPc="268438860"/>
+<entry endPc="268439178" name="colorint" stackId="8" startPc="268438860"/>
+<entry endPc="268439178" name="palette" stackId="4" startPc="268438860"/>
+<entry endPc="268439178" name="percent" stackId="6" startPc="268438860"/>
+<entry endPc="268439179" name="dc" stackId="1" startPc="268438856"/>
+<entry endPc="268439179" name="steps" stackId="2" startPc="268438856"/>
+<entry endPc="268439179" name="stepGoal" stackId="3" startPc="268438856"/>
+<entry endPc="268439664" name="sin" stackId="5" startPc="268439183"/>
+<entry endPc="268439664" name="minutes" stackId="2" startPc="268439183"/>
+<entry endPc="268439664" name="cos" stackId="4" startPc="268439183"/>
+<entry endPc="268439664" name="offset" stackId="6" startPc="268439183"/>
+<entry endPc="268439664" name="angle" stackId="3" startPc="268439183"/>
+<entry endPc="268439664" name="gap" stackId="7" startPc="268439183"/>
+<entry endPc="268439665" name="dc" stackId="1" startPc="268439179"/>
+<entry endPc="268440091" name="lvl" stackId="5" startPc="268439706"/>
+<entry endPc="268440091" name="yPos" stackId="4" startPc="268439706"/>
+<entry endPc="268440091" name="xPos" stackId="3" startPc="268439706"/>
+<entry endPc="268440094" name="bat" stackId="2" startPc="268439669"/>
+<entry endPc="268440095" name="dc" stackId="1" startPc="268439665"/>
+<entry endPc="268440147" name="f" stackId="1" startPc="268440095"/>
+<entry endPc="268440208" name="f2" stackId="2" startPc="268440151"/>
+<entry endPc="268440209" name="f" stackId="1" startPc="268440147"/>
+<entry endPc="268440327" name="m" stackId="6" startPc="268440213"/>
+<entry endPc="268440327" name="a" stackId="4" startPc="268440213"/>
+<entry endPc="268440327" name="y" stackId="5" startPc="268440213"/>
+<entry endPc="268440328" name="day" stackId="3" startPc="268440209"/>
+<entry endPc="268440328" name="year" stackId="1" startPc="268440209"/>
+<entry endPc="268440328" name="month" stackId="2" startPc="268440209"/>
+<entry endPc="268440405" name="year" stackId="1" startPc="268440328"/>
+<entry endPc="268440649" name="day_of_week" stackId="6" startPc="268440409"/>
+<entry endPc="268440649" name="week_of_year" stackId="7" startPc="268440409"/>
+<entry endPc="268440649" name="first_day_of_year" stackId="4" startPc="268440409"/>
+<entry endPc="268440649" name="given_day_of_year" stackId="5" startPc="268440409"/>
+<entry endPc="268440650" name="day" stackId="3" startPc="268440405"/>
+<entry endPc="268440650" name="year" stackId="1" startPc="268440405"/>
+<entry endPc="268440650" name="month" stackId="2" startPc="268440405"/>
+<entry endPc="268440855" name="rez_cmp_local_text_TimeLabel" stackId="2" startPc="268440662"/>
+<entry endPc="268440856" name="dc" stackId="1" startPc="268440650"/>
 </localVars>
 <annotations>
 <annotationEntry annotation="data" class="lateView" module="globals" symbol="humanizeNumber"/>
@@ -377,14 +434,14 @@
 <dataEntryOffsetMappings>
 <dataEntry offset="87" parentId="" symbolId="globals" type="module"/>
 <dataEntry offset="150" parentId="globals" symbolId="lateApp" type="class"/>
-<dataEntry offset="245" parentId="globals" symbolId="Rez" type="module"/>
-<dataEntry offset="324" parentId="Rez" symbolId="Drawables" type="module"/>
-<dataEntry offset="419" parentId="Rez" symbolId="Menus" type="module"/>
-<dataEntry offset="450" parentId="Rez" symbolId="Fonts" type="module"/>
-<dataEntry offset="537" parentId="Rez" symbolId="Layouts" type="module"/>
-<dataEntry offset="576" parentId="Rez" symbolId="JsonData" type="module"/>
-<dataEntry offset="607" parentId="Rez" symbolId="Strings" type="module"/>
-<dataEntry offset="942" parentId="globals" symbolId="lateView" type="class"/>
+<dataEntry offset="229" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry offset="308" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry offset="403" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry offset="434" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry offset="521" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry offset="560" parentId="Rez" symbolId="JsonData" type="module"/>
+<dataEntry offset="591" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry offset="926" parentId="globals" symbolId="lateView" type="class"/>
 </dataEntryOffsetMappings>
 <functions>
 <functionEntry accessMode="public" name="initialize" parent="lateApp">
@@ -395,11 +452,11 @@
 </functionEntry>
 <functionEntry accessMode="public" name="onStart" parent="lateApp">
 <param id="state"/>
-<documentation/>
+<documentation><![CDATA[<div class="description"> onStart() is called on application start up<br/></div>]]></documentation>
 </functionEntry>
 <functionEntry accessMode="public" name="onStop" parent="lateApp">
 <param id="state"/>
-<documentation/>
+<documentation><![CDATA[<div class="description"> onStop() is called when your application is exiting<br/></div>]]></documentation>
 </functionEntry>
 <functionEntry accessMode="public" name="getInitialView" parent="lateApp">
 <documentation/>
@@ -442,6 +499,12 @@
 <param id="tillStart"/>
 <documentation/>
 </functionEntry>
+<functionEntry accessMode="public" name="drawStepsArc" parent="lateView">
+<param id="dc"/>
+<param id="steps"/>
+<param id="stepGoal"/>
+<documentation/>
+</functionEntry>
 <functionEntry accessMode="public" name="drawMinuteArc" parent="lateView">
 <param id="dc"/>
 <documentation/>
@@ -456,6 +519,22 @@
 </functionEntry>
 <functionEntry accessMode="public" name="ceil" parent="lateView">
 <param id="f"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="julian_day" parent="lateView">
+<param id="year"/>
+<param id="month"/>
+<param id="day"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="is_leap_year" parent="lateView">
+<param id="year"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="iso_week_number" parent="lateView">
+<param id="year"/>
+<param id="month"/>
+<param id="day"/>
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="WatchFace" parent="Layouts">
