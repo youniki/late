@@ -25,7 +25,7 @@ class lateView extends Ui.WatchFace {
 	hidden var redrawAll=2; // 2: 2 clearDC() because of lag of refresh of the screen ?
 	hidden var lastRedrawMin=-1;
 	//hidden var dataCount=0;hidden var wakeCount=0;
-	var weekday_abbr_cache = ["Di", "Mi", "Do", "Fr", "Sa", "So", "Mo"];
+	var weekday_abbr_cache = ["So", "Mo", "Di", "Mi", "Do", "Fr", "Sa", ];
 
 	function initialize (){
 		WatchFace.initialize();
@@ -162,7 +162,7 @@ class lateView extends Ui.WatchFace {
 
 		
 		// text = Lang.format("$1$ ", ((dateForm == 0) ? [info.month] : [info.day_of_week]) );
-		text = Lang.format("$1$ ", ((dateForm == 0) ? [info.month] : [weekday_abbr_cache[info.day_of_week]]) );
+		text = Lang.format("$1$ ", ((dateForm == 0) ? [info.month] : [weekday_abbr_cache[info.day_of_week-1]]) );
 		text += info.day.format("%0.1d");
 		// dc.drawText(centerX, dateY, fontSmall, text, Gfx.TEXT_JUSTIFY_CENTER);
 		dc.drawText(0+offset, (height/2)-10, fontSmall, text, Gfx.TEXT_JUSTIFY_LEFT);
@@ -201,7 +201,7 @@ class lateView extends Ui.WatchFace {
 		
 		// **** text *****	
 		dc.setColor(lightFGColor, Gfx.COLOR_TRANSPARENT);
-		dc.drawText(centerX, 180-offset, fontSmall, "Keep going", Gfx.TEXT_JUSTIFY_CENTER);
+		dc.drawText(centerX, 180, fontSmall, "Hello Nici", Gfx.TEXT_JUSTIFY_CENTER);
 	}
 
 
